@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    <link rel="stylesheet" href="css/registerationformStyleSheet.css"/>
+</head>
+<body>
+    
+    <div class="div">
+    <form >
+        
+    <h1><b>Registration Form</b></h1>
+    <h3><b>Full Name</b></h3>
+    <label for="txtName"></label>
+        <input type="text" id="txtName" name="Name" required placeholder="Enter your Name"  /><br>
+    
+   <h3><b>Email Address</b></h3>
+   <label for="txtEmail"></label>
+        <input type="email" id="txtEmail"  name="Email"required placeholder="Enter your Email address"  /><br>
+    <h3><b>Phone Number</b></h3>
+    
+    <label for="txtphone"></label>
+        <input type="phoneNo." id="txtphone" name="Phoneno." required placeholder="Enter Phone number"  />
+    <h3><b>Birth Date</b></h3>
+    <label for="dtDOB" ></label>
+            <input type="date" id="dtDOB" name="dtDOB"/><br>
+    <h3><b>Gender</b></h3>
+         <input type="radio" id="check-male" name="gender" checked />
+            <label for="check-male">Male</label>
+
+            <input type="radio" id="check-female" name="gender" />
+            <label for="check-female">Female</label>
+
+            <input type="radio" id="check-other" name="gender" />
+            <label for="check-other">Prefer not to say</label>
+             <br>
+    <h3><b>Address</b></h3>
+     <label for="txtAddress"></label>
+        <input type="text" id="txtAddress" name="Address" required placeholder="Enter street address" /><br><br>
+        <input type="text" id="txtAddress" name="Address" required placeholder="Enter street address line 2" /><br><br>
+    <label for="txtCountry" ><b>Country</b></label>
+      
+      
+    <select id="country" name="country"required>
+        <option value="" disabled selected required></option>
+    <option value="India">India</option>
+    <option value="America">America</option>
+    <option value="New York">New York</option></select><br>
+    <h3><b>City</b></h3>
+    <input type="text" id="txtcity" name="city"  required placeholder="Enter your city"/><br>
+    <h3><b>Region:</b></h3>
+    <input type="text" id="txtRegion" name="Region" required placeholder="Enter your region"/><br>
+    <h3><b>Postal Code:</b></h3>
+    <input type="text" id="txtPostalcode" name="PostalCode"required placeholder="Enter postal code"/><br>
+    <p><input type="button" value="clear">
+            <input type="submit"></p>
+           
+    </form>
+    </div>
+    
+    
+</body>
+</html>
