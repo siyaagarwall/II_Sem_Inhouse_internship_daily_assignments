@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    <link rel="stylesheet" href="css/registerationformStyleSheet.css"/>
+</head>
+<body>
+    
+    <div class="div">
+    <form class="background" action="uploads.php" method="post" enctype="multipart/form-data">
+             
+    <h1><b>Registration Form</b></h1>
+    <h3><b>Full Name</b></h3>
+    <label for="txtName"></label>
+        <input type="text" name="txtname" required placeholder="Enter your Name"  /><br>
+    
+   <h3><b>Email Address</b></h3>
+   <label for="txtEmail"></label>
+        <input type="email" name="txtemail"   required placeholder="Enter your Email address"  /><br>
+
+    <h3><b>Phone Number</b></h3>
+        <label for="txtphone"></label>
+        <input type="phoneNo." name="txtphone"  required placeholder="Enter Phone number"  /><br>
+        <input type="file" name="myfile" accept="image/*" required> 
+        <button type="upload">UPLOAD</button>
+        <button type="submit">REGISTER</button>
+        </form>
+        </div>
+    
+    
+</body>
+</html>
